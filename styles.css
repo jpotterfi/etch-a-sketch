@@ -1,0 +1,58 @@
+html, body {
+        margin: 0;
+        height: 100%;
+        font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1 {
+    /*font-family: 'Dosis', sans-serif; */
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 960px;
+    width: 960px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    margin-bottom: 0.67em;
+}
+
+.slideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: .67em;
+    gap: 16px;
+}
+
+button {
+    margin: 0;
+    height: 30px;
+    background-color: white;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: red; /* Green */
+  }
